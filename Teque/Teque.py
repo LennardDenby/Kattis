@@ -19,7 +19,7 @@ def push_middle(x):
 def get(i):
     if i >= len(leftDeque):
         print(rightDeque[i-len(leftDeque)])
-    else:
+    else:   
         print(leftDeque[i])
 
 def balance():
